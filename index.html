@@ -7,8 +7,25 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-  <h1>THREE JS IS NOT WORKING</h1>
-  <canvas id="canvas"></canvas>
+  <div class="w-full h-full  overflow-hidden text-white">
+    <div class="w-full h-full  top-0 left-0 absolute z-[2] font-['Bellina']">
+      <nav class="w-full flex justify-between items-center py-10 px-10 ">
+        <h3>planet</h3>
+        <div class="flex gap-6">
+          <a href="#" class="text-sm">home</a>
+          <a href="#" class="text-sm">about</a>
+          <a href="#" class="text-sm">contact</a>
+        </div>
+      </nav>
+      <div class="absolute top-[10%] left-1/2 -translate-x-1/2 text-center">
+        <h1 class="text-9xl font-light tracking-tighter">Earth</h1>
+        <p class="text-sm font-['gilroy']">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+      <div class="w-96 h-px bg-gradient-to-r from-transparent via-white to-transparent mt-4"></div>
+      </div>
+    </div>
+    <canvas id="canvas"></canvas>
+  </div>
     <script src="main.js" type="module"></script>
 </body>
 </html>
